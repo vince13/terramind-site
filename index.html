@@ -78,10 +78,14 @@
     .bm-item { padding: 20px 24px; border-radius: 12px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 14px; }
     .bm-item .bm-icon { font-size: 1.5rem; }
 
-    .team-card { max-width: 400px; padding: 32px; border-radius: 16px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); margin-top: 32px; }
+    .team-card { max-width: 480px; padding: 32px; border-radius: 16px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); margin-top: 32px; }
     .team-card .name { font-size: 1.3rem; font-weight: 700; }
     .team-card .role { color: #6ee7b7; font-size: 0.9rem; font-weight: 500; }
-    .team-card .bio { color: #94a3b8; font-size: 0.9rem; margin-top: 12px; }
+    .team-card .bio { color: #94a3b8; font-size: 0.9rem; margin-top: 12px; line-height: 1.7; }
+    .team-hires { margin-top: 48px; }
+    .team-hires h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 20px; color: #f1f5f9; }
+    .hires-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .hire-item { padding: 14px 20px; border-radius: 10px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); color: #94a3b8; font-size: 0.9rem; font-weight: 500; }
 
     .vision-statement { padding: 60px 40px; border-radius: 24px; background: linear-gradient(135deg, rgba(16,185,129,0.06), rgba(59,130,246,0.06)); border: 1px solid rgba(255,255,255,0.06); text-align: center; margin-top: 48px; }
     .vision-statement h2 { font-size: 2rem; font-weight: 800; margin-bottom: 16px; }
@@ -324,9 +328,23 @@
         <div class="name">Vincent Ibekwe</div>
         <div class="role">Founder &amp; CEO</div>
         <div class="bio">
-          Software engineer, AI product builder. Founder of Tanda Venture Studio and TechMaloo Analytica.
-          Experienced in building AI-enabled platforms with a deep passion for sustainable infrastructure
-          and advanced manufacturing.
+          Software engineer &middot; AI Product Builder<br><br>
+          Founder of <strong>Tanda Venture Studio</strong> — builders of Tanda Commerce &amp; ResumeAI<br>
+          Founder of <strong>TechMaloo Analytica</strong><br><br>
+          Experience building AI-enabled platforms.<br>
+          Deep passion for sustainable infrastructure and advanced manufacturing.
+        </div>
+      </div>
+
+      <div class="team-hires">
+        <h3>Planned Founding Hires</h3>
+        <div class="hires-grid">
+          <div class="hire-item">AI Research Lead</div>
+          <div class="hire-item">Civil / Structural Engineer</div>
+          <div class="hire-item">Materials Scientist</div>
+          <div class="hire-item">Manufacturing Engineer</div>
+          <div class="hire-item">Robotics Engineer</div>
+          <div class="hire-item">Climate &amp; Energy Specialist</div>
         </div>
       </div>
     </div>
